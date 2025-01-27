@@ -6,7 +6,7 @@ import {
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card";
+} from "@/components/UI/card";
 
 import { Separator } from "@/components/UI/separator";
 import { Button } from "@/components/UI/button";

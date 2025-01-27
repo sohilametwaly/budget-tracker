@@ -2,7 +2,7 @@
 
 import { useCallback, useEffect, useState } from "react";
 import { useIsMobile } from "@/hooks/use-mobile";
-import { Button } from "@/components/ui/button";
+import { Button } from "./UI/button";
 import {
   Command,
   CommandEmpty,
@@ -10,13 +10,9 @@ import {
   CommandInput,
   CommandItem,
   CommandList,
-} from "@/components/ui/command";
-import { Drawer, DrawerContent, DrawerTrigger } from "@/components/ui/drawer";
-import {
-  Popover,
-  PopoverContent,
-  PopoverTrigger,
-} from "@/components/ui/popover";
+} from "./UI/command";
+import { Drawer, DrawerContent, DrawerTrigger } from "./UI/drawer";
+import { Popover, PopoverContent, PopoverTrigger } from "./UI/popover";
 import { useMutation, useQuery } from "@tanstack/react-query";
 import SkeletonWrapper from "./SkeletonWrapper";
 import { Currencies } from "@/lib/Currencies";

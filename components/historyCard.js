@@ -4,24 +4,20 @@ import { useMemo, useState } from "react";
 import { Check, ChevronsUpDown } from "lucide-react";
 
 import { cn } from "@/lib/utils";
-import { Button } from "@/components/ui/button";
+import { Button } from "./UI/button";
 import {
   Command,
   CommandEmpty,
   CommandGroup,
   CommandItem,
   CommandList,
-} from "@/components/ui/command";
-import {
-  Popover,
-  PopoverContent,
-  PopoverTrigger,
-} from "@/components/ui/popover";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/UI/card";
-import { Badge } from "@/components/UI/badge";
+} from "./UI/command";
+import { Popover, PopoverContent, PopoverTrigger } from "./UI/popover";
+import { Card, CardContent, CardHeader, CardTitle } from "./UI/card";
+import { Badge } from "./UI/badge";
 import { useQuery } from "@tanstack/react-query";
-import SkeletonWrapper from "@/components/SkeletonWrapper";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/UI/tabs";
+import SkeletonWrapper from "./SkeletonWrapper";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "./UI/tabs";
 import { Months } from "@/lib/Constants";
 import BarChartComponent from "./BarChart";
 import { GetFormatterForCurrency } from "@/lib/helpers";

@@ -7,14 +7,14 @@ import ThemeSwitch from "./themeSwitch";
 import { cn } from "@/lib/utils";
 import { buttonVariants } from "./UI/button";
 import { Menu } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Button } from "./UI/button";
 import {
   Sheet,
   SheetContent,
   SheetHeader,
   SheetTitle,
   SheetTrigger,
-} from "@/components/ui/sheet";
+} from "./UI/sheet";
 
 const links = [
   {

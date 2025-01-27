@@ -8,7 +8,7 @@ import {
   AlertDialogHeader,
   AlertDialogTitle,
   AlertDialogTrigger,
-} from "@/components/ui/alert-dialog";
+} from "./UI/alert-dialog";
 
 export default function ConfirmationWizard({ btn, deleteFn }) {
   return (

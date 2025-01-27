@@ -1,10 +1,10 @@
-import SkeletonWrapper from "@/components/SkeletonWrapper";
-import { Card, CardHeader, CardTitle } from "@/components/UI/card";
+import SkeletonWrapper from "./SkeletonWrapper";
+import { Card, CardHeader, CardTitle } from "./UI/card";
 import { GetFormatterForCurrency } from "@/lib/helpers";
 import { useQuery } from "@tanstack/react-query";
 import { useMemo, useState, useEffect } from "react";
-import { Progress } from "@/components/ui/progress";
-import { ScrollArea } from "@/components/UI/scroll-area";
+import { Progress } from "./UI/progress";
+import { ScrollArea } from "./UI/scroll-area";
 
 function CategoriesStats({ userSettings, to, from }) {
   const statsQuery = useQuery({

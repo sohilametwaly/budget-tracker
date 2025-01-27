@@ -1,13 +1,13 @@
 "use client";
 
-import { DatePickerWithRange } from "@/components/DateRangePicker";
+import { DatePickerWithRange } from "./DateRangePicker";
 import { MAX_DATE_RANGE_DAYS } from "@/lib/Constants";
 import { differenceInDays, startOfMonth } from "date-fns";
 import { useCallback, useState } from "react";
 import { toast } from "sonner";
 import StatsCards from "./StatsCards";
 import CategoriesStats from "./categoriesStats";
-import HistoryCard from "@/components/historyCard";
+import HistoryCard from "./historyCard";
 
 function Overview({ userSettings }) {
   const [dateRange, setDateRange] = useState({

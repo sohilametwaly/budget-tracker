@@ -1,7 +1,7 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
+import { Button } from "./UI/button";
+import { Input } from "./UI/input";
 import data from "@emoji-mart/data";
 import Picker from "@emoji-mart/react";
 import {
@@ -13,7 +13,7 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@/components/UI/dialog";
+} from "./UI/dialog";
 import {
   Form,
   FormControl,

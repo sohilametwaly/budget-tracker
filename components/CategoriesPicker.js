@@ -3,7 +3,7 @@
 import { CheckIcon, ChevronsUpDown } from "lucide-react";
 import { useQuery } from "@tanstack/react-query";
 import { useState, useEffect } from "react";
-import { Button } from "@/components/ui/button";
+import { Button } from "./UI/button";
 import {
   Command,
   CommandEmpty,
@@ -11,12 +11,8 @@ import {
   CommandInput,
   CommandItem,
   CommandList,
-} from "@/components/ui/command";
-import {
-  Popover,
-  PopoverContent,
-  PopoverTrigger,
-} from "@/components/ui/popover";
+} from "./UI/command";
+import { Popover, PopoverContent, PopoverTrigger } from "./UI/popover";
 import CreateCategory from "./CreateCategoryDiaglog";
 
 export function CategoriesPicker({ type, onChange }) {

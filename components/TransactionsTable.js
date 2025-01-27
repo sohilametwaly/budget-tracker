@@ -15,16 +15,16 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@/components/ui/table";
+} from "./UI/table";
 
-import { Button } from "@/components/UI/button";
+import { Button } from "./UI/button";
 import { useState, useMemo } from "react";
-import SkeletonWrapper from "@/components/SkeletonWrapper";
+import SkeletonWrapper from "./SkeletonWrapper";
 import { cn } from "@/lib/utils";
-import { DataTableColumnHeader } from "@/components/datatable/ColumnHeader";
-import { DataTableFacetedFilter } from "@/components/datatable/FactedFilter";
+import { DataTableColumnHeader } from "./datatable/ColumnHeader";
+import { DataTableFacetedFilter } from "./datatable/FactedFilter";
 import DeleteTransactionWizard from "./DeleteTransactionWizard";
-import { DataTableViewOptions } from "@/components/datatable/ColumnToggle";
+import { DataTableViewOptions } from "./datatable/ColumnToggle";
 import { mkConfig, generateCsv, download } from "export-to-csv";
 import { Download } from "lucide-react";
 const csvConfig = mkConfig({

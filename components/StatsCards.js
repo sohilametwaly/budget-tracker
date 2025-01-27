@@ -1,5 +1,5 @@
-import SkeletonWrapper from "@/components/SkeletonWrapper";
-import { Card } from "@/components/UI/card";
+import SkeletonWrapper from "./SkeletonWrapper";
+import { Card } from "./UI/card";
 import { DatetoUtcDate, GetFormatterForCurrency } from "@/lib/helpers";
 import { useQuery } from "@tanstack/react-query";
 import { TrendingDown, TrendingUp, Wallet } from "lucide-react";

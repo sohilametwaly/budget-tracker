@@ -93,7 +93,7 @@ export function CategoriesCard({ categoryType, categoryIcon }) {
                   No{" "}
                   <span
                     className={cn(
-                      categoryType == "income"
+                      categoryType.toLowerCase() == "income"
                         ? "text-emerald-500"
                         : "text-red-500"
                     )}
